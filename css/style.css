@@ -54,3 +54,126 @@ header {
     height: 80px;
     background-color: #fff;
   }
+
+  /* ---------------------- */
+
+  .welcome-area {
+    height: 100vh;
+  }
+
+  .welcome-area .snow-bg {
+    position: relative;
+    background-size: cover !important;
+    background: url("");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 2;
+  }
+
+  .welcome-area .bg-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+  
+  .welcome-overlay {
+    width: 45%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  .welcome-overlay::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100vh 0 0 40vh;
+    border-color: transparent transparent transparent rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 100%;
+  }
+  
+  .welcome-area #particles-js {
+    width: 100%;
+    height: 99%;
+    position: absolute;
+    z-index: 4;
+  }
+  
+  .welcome-area .video-bg {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .welcome-area .video-bg .bg-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+  
+  .welcome-text {
+    color: #fff;
+    position: relative;
+    z-index: 5;
+  }
+  
+  .welcome-text h1,
+  .welcome-text #typed,
+  .welcome-text .typed-cursor {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 52px;
+  }
+  
+  .welcome-text p {
+    color: #fff;
+    max-width: 500px;
+    margin-bottom: 35px;
+  }
+  .welcome-text #typed span {
+    font-weight: 700;
+  }
+  
+  .welcome-area .type-wrap {
+    margin-bottom: 35px;
+    margin-top: 50px;
+  }
+  
+  .welcome-area #typed {
+    white-space: normal;
+  }
+  
+  .welcome-text .social-icons a {
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 8px;
+  }
+  
+  .welcome-text .social-icons a:hover {
+    color: #c2bfbf;
+  }
+  .welcome-text .social-icons {
+    margin-bottom: 50px;
+  }
+  
+  .welcome-text a {
+    margin: 0px 5px;
+  }
+  
