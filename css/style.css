@@ -177,3 +177,154 @@ header {
     margin: 0px 5px;
   }
   
+
+  /*------------------About-----------------*/
+.about h4 {
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.about .title-small {
+  text-align: left;
+}
+
+.about-text {
+  margin-bottom: 40px;
+}
+.about-img {
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  position: relative;
+}
+.about-img img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.about .img-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 3;
+  visibility: hidden;
+  transition: all 0.5s;
+  transform: scale(0);
+}
+.about .img-overlay::before {
+  content: "";
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  top: 18px;
+  left: 18px;
+}
+
+.about .img-overlay::after {
+  content: "";
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  bottom: 18px;
+  right: 18px;
+}
+
+.about-img:hover .img-overlay {
+  visibility: visible;
+  transform: scale(1);
+}
+
+.about .about-text {
+  padding-right: 30px;
+}
+
+.about .skills {
+  max-width: 80%;
+}
+
+.about .skills-content .progressbar-area h6 {
+  margin-bottom: 21px;
+  font-weight: 500;
+  color: #6e6e6e;
+  font-size: 15px;
+}
+
+.about .skills .progress-bar {
+  background-color: #000;
+  position: relative;
+  overflow: visible;
+  box-sizing: border-box;
+  padding-top: 0;
+  padding-left: 10px;
+  text-align: left;
+  color: #fff;
+  box-shadow: none;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.about .skill-category {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.about .skills .progress {
+  overflow: visible;
+  height: 4px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 0;
+  background: #d7d7d7;
+  box-shadow: none;
+  font-weight: 400;
+}
+.about .skills .progressbar-area h6 {
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #333;
+}
+
+.about .skills .progress-bar {
+  width: 0%;
+}
+.about .skills .progress-bar span {
+  position: absolute;
+  top: -28px;
+  right: -6px;
+  display: inline-block;
+  min-width: 25px;
+  height: 22px;
+  padding: 0 8px;
+  text-align: center;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: #333;
+  line-height: 21px;
+  width: 36px;
+}
+
+.about .skills .progress-bar > span::before {
+  position: absolute;
+  bottom: -4px;
+  left: 12px;
+  display: block;
+  width: 8px;
+  height: 8px;
+  content: "";
+  transform: rotate(45deg);
+  background-color: #333;
+}
