@@ -1,0 +1,56 @@
+header {
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    top: 0;
+    background: transparent;
+    transition: all 0.4s;
+  }
+  
+  header a .logo {
+    display: inline-block;
+    float: left;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-left: -2px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    transition: all 0.2s;
+    padding: 0px 12px;
+    text-align: center;
+    display: block;
+    margin-left: -3px;
+    font-weight: 600;
+  }
+  
+  header nav ul li:nth-last-child(1) a {
+    padding-right: 0px;
+  }
+  
+  header nav ul li a.home.current {
+    color: #c5c5c5 !important;
+  }
+  
+  header nav ul li a.current {
+    color: #8a8a8a !important;
+  }
+  
+  header nav ul li a:focus {
+    color: #ddd;
+  }
+  
+  .slicknav_menu {
+    display: none;
+    height: 80px;
+    background-color: #fff;
+  }
