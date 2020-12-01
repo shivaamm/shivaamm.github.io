@@ -328,3 +328,101 @@ header {
   transform: rotate(45deg);
   background-color: #333;
 }
+
+/*-----------------services section-----------------*/
+
+.service {
+  background: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.service .service-content {
+  padding-top: 28px;
+}
+
+.service-header p {
+  text-align: left;
+  padding-right: 16px;
+  color: #fff;
+}
+
+.service-header a {
+  margin-top: 24px;
+}
+
+.service .section-title {
+  text-align: left;
+  padding-bottom: 24px;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 0px;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: #fff;
+}
+.service .item {
+  margin-left: 20px;
+  background: #fff;
+  padding: 20px;
+}
+.service-item {
+  background: #fff;
+  padding: 11px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+}
+
+.service .content-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: #424242;
+  margin-bottom: 8px;
+}
+
+.service-item span {
+  width: 62px;
+  height: 62px;
+  border: 2px solid rgba(101, 101, 101, 0.4);
+  display: block;
+  margin: 0 auto;
+  border-radius: 40px;
+  margin-bottom: 12px;
+  background: #fcfcfc;
+  transition: all 0.5s;
+  margin-top: 6px;
+}
+.service-item i {
+  color: #363636;
+  line-height: 62px;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+.service-item:hover span {
+  width: 62px;
+  height: 62px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  background: #000;
+  cursor: pointer;
+}
+
+.service-item:hover i {
+  color: #fff;
+}
+
+.service .owl-theme .owl-dots .owl-dot span {
+  border-radius: 0px;
+}
+.service .owl-stage-outer {
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.service .owl-theme .owl-nav [class*="owl-"] {
+  color: #000;
+  padding: 4px 11px;
+  background: #fff;
+  border-radius: 0px;
+}
