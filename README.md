@@ -6,3 +6,10 @@ Personal Website repository
 -free images
 -vector images
 
+Particle.js
+
+lightbox
+
+freepik
+
+figma
