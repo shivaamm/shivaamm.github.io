@@ -12,4 +12,4 @@ lightbox
 
 freepik
 
-figma
+Figma (will be back with some good svg's using figma)
