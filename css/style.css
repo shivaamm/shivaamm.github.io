@@ -714,3 +714,56 @@ header {
 .personal-detail .detail-content-area {
   padding-left: 60px;
 }
+
+/*------------------fun-fact section--------------------*/
+
+.fun-fact {
+  background: url("../images/funfact-bg.jpg");
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.fun-item .counter {
+  font-weight: 700;
+  color: #fff;
+  font-size: 48px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 48px;
+}
+
+.fun-fact .count {
+  background: rgba(83, 83, 83, 0.9);
+  padding: 30px 0px;
+}
+
+.fun-fact .count-underline {
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #d1d1d1;
+  margin: 0 auto;
+}
+
+.fun-fact i {
+  color: #7aa93c;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.fun-fact h3 {
+  color: #fff;
+  padding: 8px 0px;
+  font-weight: 500;
+  position: relative;
+}
+
+.fun-fact h6 {
+  color: #dedede;
+  font-size: 16px;
+  padding-top: 14px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+}
