@@ -549,3 +549,168 @@ header {
   color: #fff;
   line-height: 40px;
 }
+
+/*---------------personal-detail---------------------*/
+
+.personal-detail {
+  background: url("../images/detailImg.jpg");
+  background-size: cover;
+  box-shadow: 5px 5px 13px #a2a2a2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.personal-detail .detail-overlay {
+  background: #fff;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+}
+.personal-detail .personal-detail-content {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.personal-detail .details-heading-area {
+  color: #fff;
+  display: table;
+  vertical-align: middle;
+  height: 100%;
+}
+.personal-detail .detail-table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.personal-detail .detail-table-row {
+  display: table-row;
+  height: 100%;
+}
+.personal-detail .details-heading-area h4 {
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.personal-detail .details-heading-area p {
+  margin-bottom: 28px;
+  padding-right: 48px;
+}
+.personal-detail .detail-header .section-title {
+  text-align: left;
+  padding-bottom: 28px;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+.personal-detail .detail-header .title-small {
+  text-align: left;
+}
+.personal-detail .nav-tabs {
+  border-bottom: 0px;
+}
+
+.personal-detail .nav-tabs .nav-item.show .nav-link,
+.personal-detail .nav-tabs .nav-link.active {
+  color: #696969;
+  background-color: #fff;
+  border-bottom: 2px solid #b0b0b0;
+  margin-top: 0px;
+  background: #e0e0e0;
+  position: relative;
+}
+
+.personal-detail .nav-tabs .nav-link.active::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 6px 6px 6px;
+  border-color: transparent transparent #b0b0b0 transparent;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+.personal-detail .nav-link i {
+  font-size: 24px;
+  color: #dadada;
+  padding-right: 10px;
+}
+.personal-detail .nav-tabs .nav-link.active i {
+  color: #696969;
+}
+.personal-detail .nav-tabs .nav-link {
+  border: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background: #2d2d2d;
+  border-radius: 0px;
+}
+
+.personal-detail .nav-tabs {
+  height: 48px;
+}
+
+.personal-detail .deatil-year {
+  background: #5a5a5a;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  padding: 6px 12px;
+  height: 36px;
+  width: 100px;
+  text-align: center;
+  position: relative;
+  margin-left: 20px;
+  font-weight: 600;
+  border-radius: 2px;
+}
+.personal-detail .deatil-year::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 10px 8px 0;
+  border-color: transparent #5a5a5a transparent transparent;
+  position: absolute;
+  top: 7px;
+  left: -10px;
+}
+.personal-detail .detail-text {
+  padding-left: 26px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.personal-detail .deatil-title {
+  padding-left: 26px;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 18px;
+}
+.personal-detail .detail-item {
+  margin-bottom: 24px;
+  position: relative;
+}
+.personal-detail .tab-content.detail-tab {
+  border-left: 2px solid rgba(99, 99, 99, 0.2);
+  margin-top: 40px;
+}
+
+.personal-detail .detail-item::before {
+  width: 22px;
+  height: 22px;
+  content: "";
+  position: absolute;
+  border-radius: 14px;
+  border: 6px solid rgba(234, 234, 234, 0.6);
+  top: 2px;
+  left: -13px;
+  background: #bdbdbd;
+}
+.personal-detail .detail-content-area {
+  padding-left: 60px;
+}
