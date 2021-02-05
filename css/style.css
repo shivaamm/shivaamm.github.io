@@ -866,3 +866,120 @@ header {
 .blog-single-item:hover .blog-img img{
   transform:rotate(5deg) scale(1.3);
 }
+
+/*------------------contact section-------------*/
+.contact {
+  background: url("../images/contact.jpg");
+  background-size: cover;
+}
+
+.contact .section-title {
+  color: #fff;
+}
+
+.contact-content {
+  padding-top: 28px;
+}
+
+.contact-detail {
+  background: #fff;
+  padding: 36px 40px;
+}
+
+.contact-header {
+  padding-bottom: 16px;
+}
+.contact .contact-form-area {
+  background: #fff;
+  padding: 30px 40px;
+}
+
+.contact #form-name,
+.contact #form-email,
+.contact #form-subject {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: none;
+  margin-top: 12px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.contact .contact-text {
+  padding-bottom: 10px !important;
+}
+
+.contact textarea {
+  width: 100%;
+  height: 132px;
+  background: #fff;
+  border: none;
+  padding-top: 8px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.contact-detail h6 {
+  margin-bottom: 16px;
+  color: #3c3c3c;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.contact-detail p span {
+  font-weight: 700;
+  padding-right: 2px;
+}
+
+.contact-detail .adress-loc {
+  font-weight: 400 !important;
+}
+
+.contact-detail p {
+  margin: 16px 0px;
+}
+
+.contact-detail p i {
+  color: #3f3f3f;
+  font-size: 20px;
+  padding-right: 12px;
+  width: 30px;
+}
+
+.contact-detail .social-icons a i {
+  font-size: 14px;
+  margin-right: 5px;
+  color: #fff;
+  width: 32px;
+  height: 30px;
+  line-height: 28px;
+  text-align: center;
+  transition: all 0.5s;
+  display: inline-block;
+}
+
+.contact-detail .social-icons a i {
+  background: #000;
+}
+
+.contact-detail .social-icons a i:hover {
+  background: #4b4b4b;
+}
+
+.contact-detail .social-icons p {
+  font-weight: 600;
+  font-size: 18px;
+  padding-top: 8px;
+}
+
+.contact #contact-submit {
+  margin-top: 36px;
+  padding: 10px 42px;
+  border: 0px;
+  margin-bottom: 4px;
+}
+
+.contact .result {
+  color: #111;
+  margin-top: 10px;
+}
