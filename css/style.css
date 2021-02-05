@@ -983,3 +983,15 @@ header {
   color: #111;
   margin-top: 10px;
 }
+
+/*---------------footer-------------*/
+
+footer {
+  padding: 35px 0px;
+  background: #121212;
+}
+
+footer .copyright p {
+  text-align: center;
+  color: #ddd;
+}
