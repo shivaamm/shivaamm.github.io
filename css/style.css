@@ -332,7 +332,7 @@ header {
 /*-------------services section---------------*/
 
 .service {
-  background: url("");
+  background: url("../images/serviceBg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
