@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shivam Singhal</title>
-
+    <!--css styles-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/lightbox.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i%7CRaleway:400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/slicknav.min.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animate.min.css">
-
+    <!---title logo icon-->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <!-- Respond.js IE8 support media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+
+
 <body>
+    <!-- Start Preloader -->
+    <div class="preloader">
+        <div class="preloader-img"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Start scroll-top button -->
+    <div id="scroll-top-area">
+        <a href="#"><span>Scroll Top</span><i class="fas fa-arrow-right"></i></a>
+    </div>
+    <!-- End scroll-top button -->
 
     <!--Start Header-->
     <header>
@@ -24,19 +47,19 @@
             <div class="row">
                 <div class="col-md-3">
                     <a href="index.html" class="logo">
-                        <img src="images/shivam3.jpg" data-dark="images/shivam3.jpg" alt="logo">
+                        <img src="images/logoWhite.png" data-dark="images/logoBlack.png" alt="logo">
                     </a>
                 </div>
                 <div class="col-md-9">
                     <nav class="menu single-page-nav" id="menu">
                         <ul>
-                            <li><a class="home" href="">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Testimonial</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a class="home" href="#welcome-area">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#client-testimonial">Testimonial</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -84,7 +107,7 @@
     </section>
     <!--End Welcome Section-->
 
-    <!--Start About Section-->
+       <!--Start About Section-->
     <section class="about padding-style1" id="about">
         <div class="container">
             <div class="row">
@@ -125,7 +148,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="about-img">
-                        <img src="images/Shivam.png" alt="" class="img-responsive">
+                        <img src="images/about.jpg" alt="" class="img-responsive">
                         <div class="img-overlay"></div>
                     </div>
                 </div>
@@ -133,6 +156,7 @@
         </div>
     </section>
     <!--End About Section-->
+
 
     <!--Start Services Section-->
     <section class="service padding-style1" id="service">
@@ -202,8 +226,9 @@
     </section>
     <!--End Services Section-->
 
-     <!--Start Portfolio Section-->
-     <section class="portfolio padding-style1" id="portfolio">
+
+    <!--Start Portfolio Section-->
+    <section class="portfolio padding-style1" id="portfolio">
         <div class="portfolio-header">
             <p class="title-small">SEE MY WORKS</p>
             <h4 class="section-title">Portfolio</h4>
@@ -378,6 +403,7 @@
     </section>
     <!--End Portfolio Section-->
 
+
     <!--Start Personal-detail Section-->
     <section class="personal-detail" id="personal-detail">
         <div class="detail-container">
@@ -446,6 +472,138 @@
     <!--End personal-detail Section-->
 
 
+    <!--Start Client Testimonial Section Area-->
+    <section class="client-testimonial padding-style1" id="client-testimonial">
+        <div class="testimonial-header">
+            <p class="title-small">TESTIMONIAL</p>
+            <h4 class="section-title">What People Say</h4>
+        </div>
+        <div class="client-area">
+            <div class="container">
+                <div class="row">
+                    <div id="owl-demo-testimonial" class="owl-carousel owl-theme">
+                        <!--Start Client Single design area-->
+                        <div class="item">
+                            <div class="client-img">
+                                <img src="images/client/img1.jpg" alt="client">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="quote-text">
+                                    <p>
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <span>Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.</span>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </p>
+                                    <div class="client-identity">
+                                        <p class="name">OLIVIA GOMEZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Client Single design area-->
+                        <!--Start Client Single design area-->
+                        <div class="item">
+                            <div class="client-img">
+                                <img src="images/client/img2.jpg" alt="client">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="quote-text">
+                                    <p>
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <span>Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.</span>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </p>
+                                    <div class="client-identity">
+                                        <p class="name">JOHN GOMEZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Client Single design area-->
+                        <!--Start Client Single design area-->
+                        <div class="item">
+                            <div class="client-img">
+                                <img src="images/client/img3.jpg" alt="client">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="quote-text">
+                                    <p>
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <span>Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.</span>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </p>
+                                    <div class="client-identity">
+                                        <p class="name">SILVIA GOMEZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Client Single design area-->
+                        <!--Start Client Single design area-->
+                        <div class="item">
+                            <div class="client-img">
+                                <img src="images/client/img1.jpg" alt="client">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="quote-text">
+                                    <p>
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <span>Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.</span>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </p>
+                                    <div class="client-identity">
+                                        <p class="name">OLIVIA GOMEZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Client Single design area-->
+                        <!--Start Client Single design area-->
+                        <div class="item">
+                            <div class="client-img">
+                                <img src="images/client/img2.jpg" alt="client">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="quote-text">
+                                    <p>
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <span>Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.</span>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </p>
+                                    <div class="client-identity">
+                                        <p class="name">JOHN GOMEZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Client Single design area-->
+                        <!--Start Client Single design area-->
+                        <div class="item">
+                            <div class="client-img">
+                                <img src="images/client/img3.jpg" alt="client">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="quote-text">
+                                    <p>
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <span>Facilisis eu iaculis suspendisse congue auctor parturient consectetur nec gravida parturient.</span>
+                                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                                    </p>
+                                    <div class="client-identity">
+                                        <p class="name">SILVIA GOMEZ</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Client Single design area-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Client Testimonial Section Area-->
+
+
     <!--Start FunFact Section Area-->
     <section class="fun-fact fun-area padding-style1" id="fun-fact">
         <div class="container">
@@ -499,6 +657,7 @@
     </section>
     <!--End FunFact Section Area-->
 
+
     <!--Start Blog Section Area-->
     <section class="blog padding-style1" id="blog">
         <div class="blog-header">
@@ -517,7 +676,7 @@
                                 <p class="blog-title">Single Blog Post Title Goes Here</p>
                                 <p class="blog-detail">
                                     <span>Date:</span>09-11-18
-                                    <span>|</span> Posted By <span>XYZ</span>
+                                    <span>|</span> Posted By <span>Kevin Watson</span>
                                 </p>
                                 <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris eiusmod tempor incididunt ut labore et dolore magna aliqua...
                                 </p>
@@ -533,7 +692,7 @@
                                 <p class="blog-title">Single Blog Post Title Goes Here</p>
                                 <p class="blog-detail">
                                     <span>Date:</span>09-11-18
-                                    <span>|</span> Posted By <span>XYZ</span>
+                                    <span>|</span> Posted By <span>Kevin Watson</span>
                                 </p>
                                 <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris eiusmod tempor incididunt ut labore et dolore magna aliqua...
                                 </p>
@@ -549,6 +708,25 @@
         </div>
     </section>
     <!--End Blog Section Area-->
+
+
+    <!--Start Newsletter Section-->
+    <section class="newsletter" id="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="newsletter-form">
+                    <form id="mc-form">
+                        <input type="email" id="mc-email" class="newsletter-email" placeholder="Type your email here">
+                        <button type="submit" class="submit-btn btn-style2">
+                            <span>Subscribe</span>
+                        </button>
+                        <label for="mc-email"></label>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Newsletter Section-->
 
     <!--Start Contact Section-->
     <section class="contact padding-style1" id="contact">
@@ -570,7 +748,7 @@
                             </p>
                             <p class="phone">
                                 <i class="fa fa-phone" aria-hidden="true"></i>
-                                <span>Contact no:</span>+91 9990346100
+                                <span>Contact no:</span>+999000000
                             </p>
                             <p class="email">
                                 <i class="fas fa-envelope" aria-hidden="true"></i>
@@ -592,7 +770,7 @@
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="contact-form">
-                            <form class="contact-form-area" action="" method="post">
+                            <form class="contact-form-area" action="contact.php" method="post">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <input type="text" name="name" placeholder="Name" id="form-name">
@@ -628,19 +806,27 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright">
-                        <p>Copyright © 2021 | All rights reserved</p>
+                        <p>Copyright © 2018 Avita | All rights reserved</p>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
     <!--End Footer-->
-    
+
+    <!--javascript-->
+    <script src="js/jquery.min.js "></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.slicknav.min.js "></script>
     <script src="js/owl.carousel.min.js "></script>
     <script src="js/particles.min.js"></script>
     <script src="js/app-snow.js"></script>
+    <script src="js/jquery.waypoints.min.js "></script>
+    <script src="js/jquery.ajaxchimp.min.js "></script>
     <script src="js/lightbox.js "></script>
+    <script src="js/typed.min.js "></script>
+    <script src="js/mixitup.min.js "></script>
+    <script src="js/jquery.counterup.min.js "></script>
+    <script src="js/jquery.singlePageNav.min.js "></script>
     <script src="js/main.js"></script>
 </body>
-</html>
