@@ -1,4 +1,5 @@
- (function($) {
+
+(function($) {
 
     "use strict";
 
@@ -12,21 +13,21 @@
          * -----------------------------------------------------------------
          */
 
-        // var themeWindow = $(window);
-        // var pagebody = $('html, body');
-        // themeWindow.on("load", function() {
+        var themeWindow = $(window);
+        var pagebody = $('html, body');
+        themeWindow.on("load", function() {
 
-        //     var preloader = jQuery('.preloader');
-        //     var preloaderArea = jQuery('.preloader-area');
-        //     preloader.fadeOut();
-        //     preloaderArea.delay(200).fadeOut('slow');
-        //     themeWindow.scrollTop(0);
-        // });
+            var preloader = jQuery('.preloader');
+            var preloaderArea = jQuery('.preloader-area');
+            preloader.fadeOut();
+            preloaderArea.delay(200).fadeOut('slow');
+            themeWindow.scrollTop(0);
+        });
 
-        // var anchor = $('a[href="#"]');
-        // anchor.on("click", function() {
-        //     e.preventDefault();
-        // });
+        var anchor = $('a[href="#"]');
+        anchor.on("click", function() {
+            e.preventDefault();
+        });
 
 
         /*
@@ -38,18 +39,18 @@
 
 
         // Prevent console.log from generating errors in IE for the purposes of the demo
-        // if (!window.console) console = {
-        //     log: function() {}
-        // };
+        if (!window.console) console = {
+            log: function() {}
+        };
 
-        // // The actual plugin
-        // if ($(".welcome-area").is("#welcome-area")) {
-        //     var singleNav = jQuery('.single-page-nav');
-        //     singleNav.singlePageNav({
-        //         offset: singleNav.outerHeight(),
-        //         filter: ':not(.external)',
-        //         updateHash: false
-        //     });
+        // The actual plugin
+        if ($(".welcome-area").is("#welcome-area")) {
+            var singleNav = jQuery('.single-page-nav');
+            singleNav.singlePageNav({
+                offset: singleNav.outerHeight(),
+                filter: ':not(.external)',
+                updateHash: false
+            });
 
             /*
              * -----------------------------------------------------------------
@@ -57,45 +58,45 @@
              * -----------------------------------------------------------------
              */
 
-            // var skill = $('.skills');
+            var skill = $('.skills');
 
-            // var width1 = $(".prog1").data("progress");
-            // var progBar1 = $(".prog1");
-            // skill.waypoint(function() {
-            //     progBar1.css({
-            //         "width": width1,
-            //         "transition": "2s ease-in"
-            //     });
-            // }, {
+            var width1 = $(".prog1").data("progress");
+            var progBar1 = $(".prog1");
+            skill.waypoint(function() {
+                progBar1.css({
+                    "width": width1,
+                    "transition": "2s ease-in"
+                });
+            }, {
 
-            //     offset: width1
-            // });
-
-
-            // var width2 = $(".prog2").data("progress");
-            // var progBar2 = $(".prog2");
-            // skill.waypoint(function() {
-            //     progBar2.css({
-            //         "width": width2,
-            //         "transition": "2s ease-in"
-            //     });
-            // }, {
-
-            //     offset: width2
-            // });
+                offset: width1
+            });
 
 
-            // var width3 = $(".prog3").data("progress");
-            // var progBar3 = $(".prog3");
-            // skill.waypoint(function() {
-            //     progBar3.css({
-            //         "width": width3,
-            //         "transition": "2s ease-in"
-            //     });
-            // }, {
+            var width2 = $(".prog2").data("progress");
+            var progBar2 = $(".prog2");
+            skill.waypoint(function() {
+                progBar2.css({
+                    "width": width2,
+                    "transition": "2s ease-in"
+                });
+            }, {
 
-            //     offset: width3
-            // });
+                offset: width2
+            });
+
+
+            var width3 = $(".prog3").data("progress");
+            var progBar3 = $(".prog3");
+            skill.waypoint(function() {
+                progBar3.css({
+                    "width": width3,
+                    "transition": "2s ease-in"
+                });
+            }, {
+
+                offset: width3
+            });
 
 
             /*
@@ -106,20 +107,20 @@
 
 
 
-            // var serviceBtn = $(".service-btn");
+            var serviceBtn = $(".service-btn");
 
-            // serviceBtn.on("click", function() {
-            //     $('html, body').animate({
-            //         scrollTop: ($("#portfolio").offset().top) - 60
-            //     }, 2000);
-            // });
-            // var hireBtn = $(".hire-btn");
+            serviceBtn.on("click", function() {
+                $('html, body').animate({
+                    scrollTop: ($("#portfolio").offset().top) - 60
+                }, 2000);
+            });
+            var hireBtn = $(".hire-btn");
 
-            // hireBtn.on("click", function() {
-            //     $('html, body').animate({
-            //         scrollTop: ($("#contact").offset().top) - 60
-            //     }, 2000);
-            // });
+            hireBtn.on("click", function() {
+                $('html, body').animate({
+                    scrollTop: ($("#contact").offset().top) - 60
+                }, 2000);
+            });
 
 
             /*
@@ -128,13 +129,13 @@
              * -----------------------------------------------------------------
              */
 
-            // var personal = $('#personal-detail .nav .nav-item');
+            var personal = $('#personal-detail .nav .nav-item');
 
-            // personal.on("click", function(e) {
-            //     e.preventDefault();
-            //     e.stopImmediatePropagation();
-            //     $(this).tab('show');
-            // });
+            personal.on("click", function(e) {
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                $(this).tab('show');
+            });
 
             /*
              * -----------------------------------------------------------------
@@ -144,17 +145,17 @@
 
 
 
-            // var animation1 = $('.animation');
+            var animation1 = $('.animation');
 
-            // animation1.waypoint(function() {
-            //     var thisElement = $(this.element);
-            //     var animation = thisElement.attr('data-animation');
+            animation1.waypoint(function() {
+                var thisElement = $(this.element);
+                var animation = thisElement.attr('data-animation');
 
-            //     thisElement.css('opacity', '1');
-            //     thisElement.addClass("animated " + animation).delay(2000);
-            // }, {
-            //     offset: '75%',
-            // });
+                thisElement.css('opacity', '1');
+                thisElement.addClass("animated " + animation).delay(2000);
+            }, {
+                offset: '75%',
+            });
 
 
             /*
@@ -164,12 +165,12 @@
              */
 
 
-            // var menu = $("#menu");
+            var menu = $("#menu");
 
-            // menu.slicknav({
-            //     'label' : 'MENU', // Label for menu button. Use an empty string for no label.
-            //     'duplicate': true, // If true, the mobile menu is a copy of the original.
-            // });
+            menu.slicknav({
+                'label' : 'MENU', // Label for menu button. Use an empty string for no label.
+                'duplicate': true, // If true, the mobile menu is a copy of the original.
+            });
 
             /*
              * -----------------------------------------------------------------
@@ -179,9 +180,9 @@
 
 
 
-            // var portfolioContent = $('.portfolio-content');
+            var portfolioContent = $('.portfolio-content');
 
-            // portfolioContent.mixItUp();
+            portfolioContent.mixItUp();
 
 
 
@@ -207,11 +208,11 @@
              */
 
 
-            // var chimpForm = $('#mc-form');
+            var chimpForm = $('#mc-form');
 
-            // chimpForm.ajaxChimp({
-            //     url: 'https://tahsinscreation.us17.list-manage.com/subscribe/post?u=8d43c37bb4dbc0d0b8078d874&amp;id=c638bf1e04'
-            // });
+            chimpForm.ajaxChimp({
+                url: 'https://tahsinscreation.us17.list-manage.com/subscribe/post?u=8d43c37bb4dbc0d0b8078d874&amp;id=c638bf1e04'
+            });
 
 
 
@@ -224,36 +225,36 @@
 
 
 
-            // var contactSubmit = $('#contact-submit');
+            var contactSubmit = $('#contact-submit');
 
-            // contactSubmit.on('click', function(e) {
-            //     e.preventDefault();
-            //     var name = $('#form-name').val();
-            //     var email = $('#form-email').val();
-            //     var subject = $('#form-subject').val();
-            //     var message = $('#form-message').val();
-            //     var form = new Array({
-            //         'name': name,
-            //         'email': email,
-            //         'subject': subject,
-            //         'message': message
-            //     });
-            //     $.ajax({
-            //         type: 'POST',
-            //         url: "contact.php",
-            //         data: ({
-            //             'action': 'contact',
-            //             'form': form
-            //         })
-            //     }).done(function(data) {
+            contactSubmit.on('click', function(e) {
+                e.preventDefault();
+                var name = $('#form-name').val();
+                var email = $('#form-email').val();
+                var subject = $('#form-subject').val();
+                var message = $('#form-message').val();
+                var form = new Array({
+                    'name': name,
+                    'email': email,
+                    'subject': subject,
+                    'message': message
+                });
+                $.ajax({
+                    type: 'POST',
+                    url: "contact.php",
+                    data: ({
+                        'action': 'contact',
+                        'form': form
+                    })
+                }).done(function(data) {
 
-            //         var conResult = $('#contact .result');
-            //         conResult.html(data);
-            //         $(".contact-form-area")[0].reset();
+                    var conResult = $('#contact .result');
+                    conResult.html(data);
+                    $(".contact-form-area")[0].reset();
 
-            //     });
+                });
 
-            // });
+            });
 
 
             /*
@@ -264,35 +265,35 @@
 
 
 
-            // var testimonial = $("#client-testimonial #owl-demo-testimonial");
+            var testimonial = $("#client-testimonial #owl-demo-testimonial");
 
-            // testimonial.owlCarousel({
-            //     autoplay: true,
-            //     autoplayTimeout: 5000,
-            //     items: 2,
-            //     autoPlay: 6000,
-            //     responsive: {
-            //         // breakpoint from 0 up
-            //         0: {
-            //             items: 1
-            //         },
-            //         // breakpoint from 480 up
-            //         600: {
-            //             items: 1
-            //         },
-            //         // breakpoint from 768 up
-            //         900: {
-            //             items: 1
-            //         },
-            //         1000: {
-            //             items: 3
-            //         }
-            //     },
-            //     pauseOnHover: true,
-            //     nav: true,
-            //     dots: false,
-            //     navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"]
-            // });
+            testimonial.owlCarousel({
+                autoplay: true,
+                autoplayTimeout: 5000,
+                items: 2,
+                autoPlay: 6000,
+                responsive: {
+                    // breakpoint from 0 up
+                    0: {
+                        items: 1
+                    },
+                    // breakpoint from 480 up
+                    600: {
+                        items: 1
+                    },
+                    // breakpoint from 768 up
+                    900: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 3
+                    }
+                },
+                pauseOnHover: true,
+                nav: true,
+                dots: false,
+                navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"]
+            });
 
             /*
              * -----------------------------------------------------------------
@@ -300,11 +301,11 @@
              * -----------------------------------------------------------------
              */
 
-            // var count = $('.counter');
-            // count.counterUp({
-            //     delay: 20,
-            //     time: 40,
-            // });
+            var count = $('.counter');
+            count.counterUp({
+                delay: 20,
+                time: 40,
+            });
 
             /*
              * -----------------------------------------------------------------
@@ -313,36 +314,36 @@
              */
 
 
-            // var serviceItem = $("#service #owl-demo-service");
+            var serviceItem = $("#service #owl-demo-service");
 
-            // serviceItem.owlCarousel({
-            //     autoplay: true,
-            //     autoplayTimeout: 5000,
-            //     items: 3,
-            //     autoPlay: 6000,
-            //     responsive: {
-            //         0: {
-            //             items: 1
-            //         },
-            //         // breakpoint from 480 up
-            //         500: {
-            //             items: 2
-            //         },
-            //         768: {
-            //             items: 1
-            //         },
-            //         992: {
-            //             items: 2
-            //         },
-            //         1000: {
-            //             items: 2
-            //         }
-            //     },
-            //     pauseOnHover: true,
-            //     nav: true,
-            //     dots: false,
-            //     navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"]
-            // });
+            serviceItem.owlCarousel({
+                autoplay: true,
+                autoplayTimeout: 5000,
+                items: 3,
+                autoPlay: 6000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    // breakpoint from 480 up
+                    500: {
+                        items: 2
+                    },
+                    768: {
+                        items: 1
+                    },
+                    992: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 2
+                    }
+                },
+                pauseOnHover: true,
+                nav: true,
+                dots: false,
+                navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"]
+            });
 
 
 
@@ -353,19 +354,19 @@
              * -----------------------------------------------------------------
              */
 
-        //     if ($(".welcome-area").is(".animated-text")) {
-        //         var typed = new Typed("#typed", {
-        //             stringsElement: '#typed-strings',
-        //             typeSpeed: 60,
-        //             backSpeed: 30,
-        //             backDelay: 2000,
-        //             startDelay: 1000,
-        //             loop: true
+            if ($(".welcome-area").is(".animated-text")) {
+                var typed = new Typed("#typed", {
+                    stringsElement: '#typed-strings',
+                    typeSpeed: 60,
+                    backSpeed: 30,
+                    backDelay: 2000,
+                    startDelay: 1000,
+                    loop: true
 
-        //         });
-        //     }
+                });
+            }
 
-        // }
+        }
         /*
          * -----------------------------------------------------------------
          *-----------------------Scroll Top Events--------------------------
@@ -391,7 +392,7 @@
             var darkLogo = logo.data("dark");
             if (top < 150) {
                 scrollTopArea.css('display', 'none');
-                logo.attr("src", "images/shivam3.jpg");
+                logo.attr("src", "images/logoWhite.png");
                 headerText.css('color', '#fff');
                 header.css({
                     'background': 'transparent',

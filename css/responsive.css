@@ -1,0 +1,503 @@
+/*------------------------------------
+ *Author:FortunaTheme
+ *Template:Avita
+ *Version:1.0
+ *-------------------------------------
+ */
+@media screen and (max-width: 1024px) {
+  /*--------------welcome-area----------------*/
+  .welcome-overlay {
+    display: none;
+  }
+  /*--------------funfact----------------*/
+  .fun-fact h6 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  /*--------------contact----------------*/
+  .contact-form-area {
+    padding: 36px 40px;
+  }
+  /*--------------newsletter----------------*/
+  .newsletter-form form {
+    width: 60%;
+  }
+  .newsletter {
+    margin: 0px 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /*--------------welcome area----------------*/
+  .welcome-text h1,
+  .welcome-text #typed,
+  .welcome-text .typed-cursor {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /*------padding--------*/
+  .padding-style1 {
+    padding: 70px 0;
+  }
+  /*------header--------*/
+  #menu {
+    display: none;
+  }
+  .slicknav_menu {
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+    z-index: 100;
+    background: transparent;
+    padding-top: 12px;
+  }
+  .slicknav_btn {
+    margin-top: 24px;
+    background: #fff;
+    margin-right: 20px;
+  }
+  .slicknav_nav a {
+    background: #e7e7e7;
+    height: 47px;
+    color: #000;
+    width: 200px;
+    padding-top: 12px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .slicknav_nav li {
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+  }
+  .slicknav_nav a:hover {
+    border-radius: 0px;
+    background: #000;
+    color: #fff;
+  }
+  .slicknav_nav,
+  .slicknav_nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .slicknav_nav .slicknav_row,
+  .slicknav_nav a {
+    margin: 0px;
+  }
+  .slicknav_menu .slicknav_icon-bar {
+    background-color: #000;
+  }
+  /*--------------about----------------*/
+  .about .progressbar-area {
+    margin-bottom: 70px;
+  }
+  .about-img {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    max-width: 60%;
+  }
+
+  /*--------------funfact----------------*/
+  .fun-fact .count {
+    margin-bottom: 20px;
+  }
+  /*--------------blog----------------*/
+  .blog-single-item.blog-item-margin {
+    margin-bottom: 50px;
+  }
+  .blog-single-item .blog-text a {
+    margin-top: 8px;
+  }
+  .blog-img.right::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 14px 14px 0 14px;
+  border-color: #ffffff transparent transparent transparent;
+  position: absolute;
+  left: 48%;
+  top: 0px;
+}
+.blog-img.left::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+  left: 48%;
+  bottom: 0px;
+  border-color: transparent transparent #ffffff transparent;
+  border-width: 0 14px 14px 14px;
+}
+  /*--------------contact----------------*/
+  .contact-detail p {
+    margin-bottom: 18px;
+  }
+
+  .contact-detail {
+    margin-bottom: 50px;
+  }
+  .contact textarea {
+    margin-top: 18px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .blog-img.left::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 14px 14px 14px 0;
+  border-color: transparent #ffffff transparent transparent;
+  position: absolute;
+  right: 0px;
+  top:46%;
+}
+.blog-img img {
+  transition: all 0.5s;
+  width: 100%;
+  height: 100%;
+  max-height: 330px;
+}
+}
+@media only screen and (max-width: 991px) and (min-width: 576px) {
+  /*--------------portfolio----------------*/
+  .portfolio-item:hover .overlay-content-item {
+    transform: translateY(10%);
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  /*----------------personal-detail---------------*/
+  .personal-detail .nav-tabs .nav-link {
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .personal-detail .nav-link i {
+    display: none !important;
+  }
+  .personal-detail .nav-tabs .nav-item.show .nav-link,
+  .personal-detail .nav-tabs .nav-link.active {
+    margin-top: 3px;
+  }
+  .personal-detail .detail-content-area {
+    padding-left: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /*--------------scroll-top-area----------------*/
+  #scroll-top-area {
+    position: fixed;
+    bottom: 64px;
+    right: 10px;
+    z-index: 8;
+    transition: all 6s;
+    transform: rotate(270deg);
+    display: none !important;
+  }
+  /*--------------about----------------*/
+
+  .about .skills {
+    max-width: 90%;
+  }
+  .about-img {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    max-width: 100%;
+  }
+  .newsletter {
+  margin: 0px 20px;
+}
+.newsletter-form form {
+  width: 80%;
+}
+}
+@media screen and (max-width: 575px) {
+  /*--------------service----------------*/
+  .service-item.item-one,
+  .service-item.item-two {
+    padding-bottom: 32px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /*--------------service----------------*/
+  .service .item {
+    margin-left: 10px;
+    background: #fff;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  /*----------subheader----------------*/
+  .sub-header {
+    margin: 0 20px;
+    margin-bottom: 20px;
+  }
+  /*--------------about---------------*/
+  .about-text {
+    padding-right: 0px;
+  }
+  .service-header a {
+    margin-top: 24px;
+    margin-bottom: 40px;
+  }
+  /*--------------testimonial----------------*/
+  .testimonial-content {
+    margin: 0px 20px;
+  }
+
+  .service-item {
+    background: #fff;
+  }
+  .detail-overlay {
+    display: none;
+  }
+  .personal-detail .container {
+    max-width: 100vw;
+    padding: 0px;
+  }
+  .details-heading-area {
+    padding: 60px 0px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+  }
+  .detail-content-area {
+    padding-left: 0px;
+    background: #fff;
+  }
+  .detail-header,
+  .detail-contents {
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+  }
+  .detail-content-area.padding-style2 {
+    padding: 50px 0px;
+  }
+}
+@media screen and (max-width: 464px) {
+  /*--------------welcome-area----------------*/
+  .welcome-text h1 {
+    font-size: 40px;
+    margin-top: 58px;
+  }
+  .welcome-area #typed {
+    line-height: 48px;
+  }
+  .welcome-text a {
+    margin: 0px 5px;
+    margin-bottom: 20px;
+  }
+  /*--------------portfolio----------------*/
+  .magnify-icon p {
+    top: 63%;
+  }
+  /*--------------newsletter---------------*/
+  .newsletter-form form {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /*--------------welcome-area----------------*/
+  .welcome-overlay {
+    display: none;
+  }
+  /*--------------funfact----------------*/
+  .fun-fact h6 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  /*--------------contact----------------*/
+  .contact-form-area {
+    padding: 36px 40px;
+  }
+
+}
+@media screen and (min-width: 1024px) {
+  /*--------------welcome area----------------*/
+  .welcome-text h1,
+  .welcome-text #typed,
+  .welcome-text .typed-cursor {
+    font-size: 56px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /*------padding--------*/
+  .padding-style1 {
+    padding: 70px 0;
+  }
+  /*------header--------*/
+  #menu {
+    display: none;
+  }
+  .slicknav_menu {
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+    z-index: 100;
+    background: transparent;
+    padding-top: 12px;
+  }
+  .slicknav_btn {
+    margin-top: 20px;
+    background: #fff;
+    margin-right: 20px;
+  }
+  .slicknav_nav a {
+    background: #e7e7e7;
+    height: 47px;
+    color: #000;
+    width: 200px;
+    padding-top: 12px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .slicknav_nav li {
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+  }
+  .slicknav_nav a:hover {
+    border-radius: 0px;
+    background: #000;
+    color: #fff;
+  }
+  .slicknav_nav,
+  .slicknav_nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .slicknav_nav .slicknav_row,
+  .slicknav_nav a {
+    margin: 0px;
+  }
+  .slicknav_menu .slicknav_icon-bar {
+    background-color: #000;
+  }
+  /*--------------about----------------*/
+
+  /*--------------portfolio----------------*/
+  .portfolio .magnify-icon p {
+    top: 50%;
+  }
+  /*--------------funfact----------------*/
+  .fun-fact .count {
+    margin-bottom: 20px;
+  }
+
+  /*--------------blog----------------*/
+  .blog-single-item.blog-item-margin {
+    margin-bottom: 50px;
+  }
+  .blog-single-item .blog-text a {
+    margin-top: 8px;
+  }
+  /*--------------contact----------------*/
+  .contact-detail p {
+    margin-bottom: 18px;
+  }
+
+  .contact-detail {
+    margin-bottom: 50px;
+  }
+  .contact textarea {
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /*--------------scroll-top-area----------------*/
+  #scroll-top-area {
+    position: fixed;
+    bottom: 64px;
+    right: 10px;
+    z-index: 8;
+    transition: all 6s;
+    transform: rotate(270deg);
+    display: none !important;
+  }
+  /*--------------about----------------*/
+
+  .about .skills {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /*--------------service----------------*/
+  .service-item.item-one,
+  .service-item.item-two {
+    padding-bottom: 32px;
+  }
+}
+@media screen and (max-width: 537px) {
+  /*--------------personal-detail----------------*/
+  .details-heading-area {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .detail-header {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .detail-contents {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /*--------------service----------------*/
+  .service .item {
+    margin-left: 0px;
+    background: #fff;
+    padding: 20px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 464px) {
+  /*--------------welcome-area----------------*/
+  .welcome-text h1 {
+    font-size: 40px;
+    margin-top: 58px;
+  }
+  .welcome-area #typed {
+    line-height: 48px;
+  }
+  .welcome-text a {
+    margin: 0px 5px;
+    margin-bottom: 20px;
+  }
+  /*--------------portfolio----------------*/
+  .magnify-icon p {
+    top: 63%;
+  }
+  /*--------------newsletter---------------*/
+  .newsletter-form form {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 385px) {
+  /*--------------personal-detail----------------*/
+  .personal-detail .nav-tabs .nav-link {
+    border: 0px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  /*--------------personal-detail----------------*/
+  .personal-detail nav {
+    padding-left: 0px;
+    padding-bottom: 40px;
+  }
+}
