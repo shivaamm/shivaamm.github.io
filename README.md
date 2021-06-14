@@ -12,4 +12,4 @@ lightbox
 
 freepik
 
-# learning more about js to apply in this website
+lootie files
