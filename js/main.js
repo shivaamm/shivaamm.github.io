@@ -392,7 +392,7 @@
             var darkLogo = logo.data("dark");
             if (top < 150) {
                 scrollTopArea.css('display', 'none');
-                logo.attr("src", "images/shivam3.jpg");
+                logo.attr("src", "images/flogo.jpg");
                 headerText.css('color', '#fff');
                 header.css({
                     'background': 'transparent',
