@@ -1,7 +1,12 @@
-# Website Under Construction
+# Portfolio Website
 
 # shivaamm.github.io
-Personal Website repository
+
+Check Out Here - http://shivaamm.github.io/
+
+Needs to improve more working on some parts if you got something in mind pls drop an message in the issues or just fill the contact form :)
+* How about the new design on projects display? umm... lightbox is too common isn't it?
+<!-- Personal Website repository
 -will be using different libraries
 -free images
 -vector images
@@ -15,3 +20,4 @@ freepik
 lootie files
 
 threejs and webgl learning
+ -->
