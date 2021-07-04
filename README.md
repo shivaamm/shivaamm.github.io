@@ -10,7 +10,7 @@ Needs to improve more working on some parts if you got something in mind pls dro
 Changes to be done - 
 lightbox
 projects section margin btw projects
-
+slider in about me (phone view)
 <!-- Personal Website repository
 -will be using different libraries
 -free images
