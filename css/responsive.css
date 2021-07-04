@@ -21,7 +21,9 @@
     margin: 0px 50px;
   }
 }
-@media screen and (min-width: 1024px) {
+
+/* laptop  screen resp */
+@media screen and (min-width: 1024px) {            
   /*--------------welcome area----------------*/
   .welcome-text h1,
   .welcome-text #typed,
