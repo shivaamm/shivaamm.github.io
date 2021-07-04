@@ -1,9 +1,4 @@
-/*------------------------------------
- *Author:FortunaTheme
- *Template:Avita
- *Version:1.0
- *-------------------------------------
- */
+/* resonsive css file */
 @media screen and (max-width: 1024px) {
   /*--------------welcome-area----------------*/
   .welcome-overlay {
@@ -34,6 +29,8 @@
     font-size: 56px;
   }
 }
+
+/* media screens */
 
 @media screen and (max-width: 991px) {
   /*------padding--------*/
