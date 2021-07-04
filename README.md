@@ -11,6 +11,7 @@ Changes to be done -
 lightbox
 projects section margin btw projects
 slider in about me (phone view)
+My services Box UI (corners rounded or slider instead of buttons) or may be carousel works fine
 <!-- Personal Website repository
 -will be using different libraries
 -free images
