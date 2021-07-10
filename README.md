@@ -14,6 +14,7 @@ projects section margin btw projects
 slider in about me (phone view)
 My services Box UI (corners rounded or slider instead of buttons) or may be carousel works fine
 Download Resume button on about me (on image hover)
+Project counter function not working properly
 
 <!-- Personal Website repository
 -will be using different libraries
