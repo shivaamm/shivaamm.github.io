@@ -29,6 +29,8 @@ PHONE
 -will be using different libraries
 -free images
 -vector images
+-recommendations photos error.
+
 
 Particle.js
 
