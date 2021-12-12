@@ -15,7 +15,7 @@ slider in about me (phone view)
 My services Box UI (corners rounded or slider instead of buttons) or may be carousel works fine
 Download Resume button on about me (on image hover)
 Project counter function not working properly
-To Add more projects into the gallery
+Add more projects into the gallery
 
 
 DESKTOP
