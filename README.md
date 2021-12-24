@@ -16,6 +16,7 @@ My services Box UI (corners rounded or slider instead of buttons) or may be caro
 Download Resume button on about me (on image hover)
 Project counter function not working properly
 Add more projects into the gallery
+Add Runners up project
 
 
 DESKTOP
